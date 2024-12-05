@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/city-pulse/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "site": "deploy-demo-514be",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
